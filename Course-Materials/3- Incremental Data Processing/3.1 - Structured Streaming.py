@@ -18,7 +18,7 @@
 # COMMAND ----------
 
 (spark.readStream
-      .table("books")
+      .table("hive_metastore.default.books")
       .createOrReplaceTempView("books_streaming_tmp_vw")
 )
 

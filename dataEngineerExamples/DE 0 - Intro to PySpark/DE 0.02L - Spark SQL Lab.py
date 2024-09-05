@@ -35,7 +35,7 @@
 # COMMAND ----------
 
 # TODO
-events_df = FILL_IN
+events_df = spark.read.json("dbfs:/mnt/training/events/events.json")
 
 # COMMAND ----------
 
