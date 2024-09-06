@@ -177,7 +177,7 @@ load_new_data()
 
 # COMMAND ----------
 
-load_new_data()
+load_new_data(all=True)
 
 # COMMAND ----------
 

@@ -363,7 +363,11 @@ SELECT * FROM beans
 
 -- COMMAND ----------
 
--- SELECT * FROM beans@v1
+DESCRIBE EXTENDED beans
+
+-- COMMAND ----------
+
+SELECT * FROM beans VERSION AS OF 12
 
 -- COMMAND ----------
 
